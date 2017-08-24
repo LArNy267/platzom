@@ -1,0 +1,28 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test" : "mocha"
+  },
+  "description": "Traductor de idioma platzom",
+  "main": "dist/src/platzom.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LArNy267/platzom.git"
+  },
+  "author": "Luis Duran <luis.ias.nlp@gmail.com> (proneli.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LArNy267/platzom/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  },
+  "dependencies": {
+    "debug-log": "^1.0.1"
+  }
+}
